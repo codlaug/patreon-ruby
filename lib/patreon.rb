@@ -2,7 +2,6 @@ require 'net/http'
 require 'json'
 require 'rack'
 require 'net/http'
-require 'json-api-vanilla'
 require 'openssl'
 
 require 'patreon/utils/jsonapi/url_util'

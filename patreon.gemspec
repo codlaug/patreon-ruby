@@ -19,7 +19,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency 'json-api-vanilla', '~> 1.0.1'
   # left rack dependency to float because we're only using build_query, parse_query
   gem.add_dependency 'rack'
 
